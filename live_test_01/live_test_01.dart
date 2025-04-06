@@ -22,7 +22,6 @@ void main() {
 
     averages[name] = avg;
   }
-
   List<MapEntry<String, double>> sortedList = averages.entries.toList();
   sortedList.sort((a, b) => b.value.compareTo(a.value)); // High to low
 
